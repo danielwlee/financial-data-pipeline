@@ -1,0 +1,8 @@
+apache-airflow==3.1.7
+pandas
+requests
+dbt-postgres
+psycopg2-binary
+pytest
+black
+sqlfluff

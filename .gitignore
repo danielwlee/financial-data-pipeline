@@ -1,4 +1,16 @@
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+
+# logs
+logs/
+
+# plugins
+plugins/
+
 # Byte-compiled / optimized / DLL files
+*.pyc
 __pycache__/
 *.py[codz]
 *$py.class
