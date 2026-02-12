@@ -5,6 +5,15 @@ USER root
 # (Optional) Install git or other OS tools here if you need them later
 # RUN apt-get update && apt-get install -y git
 
+# Install system dependencies required to build psycopg2 and dbt-postgres
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+    gcc \
+    python3-dev \
+    libpq-dev \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 # Switch back to the airflow user to install python packages
 USER airflow
 
