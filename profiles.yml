@@ -1,0 +1,17 @@
+# financial-data-pipeline/profiles.yml
+analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      # Change from 'localhost' to '127.0.0.1' to force IPv4
+      host: 127.0.0.1 
+      user: airflow
+      password: airflow
+      port: 5432
+      dbname: airflow
+      schema: dbt_dev
+      threads: 1
+      # This forces the driver to ignore system GSSAPI settings
+      keepalives_idle: 0
+      connect_timeout: 10

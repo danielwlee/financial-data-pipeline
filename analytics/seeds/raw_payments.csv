@@ -1,0 +1,4 @@
+id,payment_method,amount
+1,credit_card,100
+2,coupon,50
+3,bank_transfer,200
