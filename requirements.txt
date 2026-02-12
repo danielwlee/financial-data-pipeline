@@ -7,3 +7,6 @@ pytest
 black
 sqlfluff
 apache-airflow-providers-fab
+dbt-core
+dbt-postgres
+astronomer-cosmos
