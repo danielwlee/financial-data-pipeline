@@ -6,3 +6,4 @@ psycopg2-binary
 pytest
 black
 sqlfluff
+apache-airflow-providers-fab
