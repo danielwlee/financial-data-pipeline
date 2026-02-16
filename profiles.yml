@@ -5,7 +5,7 @@ analytics:
     dev:
       type: postgres
       # Change from 'localhost' to '127.0.0.1' to force IPv4
-      host: 127.0.0.1 
+      host: 127.0.0.1
       user: airflow
       password: airflow
       port: 5432
