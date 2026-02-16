@@ -1,8 +1,10 @@
 apache-airflow==3.1.7
 pandas
 requests
-dbt-postgres
-psycopg2-binary
+psycopg2-binary==2.9.11
+dbt-core==1.9.0
+dbt-postgres==1.9.0
+astronomer-cosmos
 pytest
 black
 sqlfluff
